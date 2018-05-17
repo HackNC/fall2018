@@ -13,7 +13,7 @@
     </head>
     <body>
         <div id="content">
-            <div class="container">
+            <main class="container">
                 <!-- Logo and header -->
                 <div class="section">
                     <img id="logo" src="{{ url_for('static',filename='assets/CarnivalBanner.png') }}">
@@ -33,8 +33,9 @@
                         </form>
                     </div>
                 </div>
-
-                <div class="contact section">
+            </main>
+            <footer class="contact page-footer">
+                <div class="container">
                     <div class="row center">
                         <div class="center col s3"><a href="https://www.facebook.com/thehacknc/">
                             <i class="fab fa-facebook-square"></i><span> Facebook</span></a>
@@ -50,7 +51,7 @@
                             </div>
                     </div>
                 </div>
-            </div>
+            </footer>
         </div>
 
         {% if msg %}

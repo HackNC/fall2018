@@ -76,6 +76,14 @@ body {
     color: #3A3352;
 }
 
+.contact {
+    background-color: rgba(0,0,0,0) !important;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
 .contact a {
     color: #FFEDCC;
     text-decoration: none;
