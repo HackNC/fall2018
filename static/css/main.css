@@ -31,8 +31,13 @@ body {
 #hacknc {
     margin: 1rem auto auto auto !important;
 }
+
 #fall2018 {
     margin: 0 auto auto auto !important;
+}
+
+.email-section .row {
+    margin-bottom: 0;
 }
 
 #email-ifield {
@@ -69,4 +74,20 @@ body {
 #submit-email {
     background-color: #FEB252;
     color: #3A3352;
+}
+
+.contact a {
+    color: #FFEDCC;
+    text-decoration: none;
+    white-space: nowrap;
+    font-size: 120%;
+}
+
+@media only screen and (max-width: 600px) {
+    .contact a {
+        font-size: 250%;
+    }
+    .contact a span{
+        font-size: 0;
+    }
 }
