@@ -19,20 +19,20 @@
 </head>
 
 <body>
-    <header>
-
-    </header>
     <a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:10000"
         href="https://mlh.io/seasons/na-2019/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2019-season&utm_content=white"
         target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg"
             alt="Major League Hacking 2019 Hackathon Season" style="width:100%"></a>
     <main id="content container">
+
         <!-- Logo and header -->
-        <div id='space-holder'></div>
-        <div class="section dark center banner">
-            <img class="logo" src="static/assets/CarnivalBannerHanging.png">
-            <h4 class="fall2018" class="center">October 6-7, 2018</h4>
-            <button class='btn-large register-btn'>Register Now!</button>
+        <div class="banner">
+            <div id='space-holder'></div>
+            <div class="section dark center">
+                <img class="logo" src="static/assets/CarnivalBannerHanging.png">
+                <h4 class="fall2018" class="center">October 6-7, 2018</h4>
+                <button class='btn-large register-btn'>Register Now!</button>
+            </div>
         </div>
 
         <!-- Navigation Bar -->
@@ -42,6 +42,7 @@
                 <ul class="hide-on-small-only">
                     <li><a href="#about">Home</a></li>
                     <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#travel">Travel</a></li>
                 </ul>
             </div>
         </nav>
@@ -50,175 +51,178 @@
         <ul class="sidenav" id="mobile-demo">
             <li><a href="#about">Home</a></li>
             <li><a href="#faq">FAQ</a></li>
+            <li><a href="#travel">Travel</a></li>
         </ul>
 
-        <div class="section light about" id="about">
-            <div class="container row">
-                <h2>General Information</h2>
-                <p>HackNC 2018 will take place on October 6th and 7th in Murray
-                and Venable Halls at UNC-Chapel Hill!</p>
-                <p>HackNC is a weekend for students of all skill levels to broaden their talents. Your challenge is to make
-                    an awesome project in just 24 hours. You will have access to hands-on workshops and demos from our sponsors,
-                    as well as exciting talks about the awesome things happening right now with computer science and technology
-                    - not to mention all of the free food, shirts, stickers, and swag!</p>
-                <p>HackNC begins with just a weekend, but we hope you will whet skills, make friends, and foster ideas here
-                    that flourish. Ready to apply? You'll need a laptop and your fanciest thinking cap - everything else
-                    is on us. Get started now.</p>
-                <p>HackNC is an MLH-sponsored event, as such, we follow the MLH
-                <a href="http://mlh.io/code-of-conduct">code of conduct</a>.</p>
-            </div>
-        </div>
-
-        <div class="map-container">
-            <iframe frameborder="0" style="border:0"src="https://www.google.com/maps/d/embed?mid=1-4ZqI9gEqrLvmT1FYqdjMsMzZJ2h2uIB" allowfullscreen></iframe>
-        </div>
-
-        <div class="section dark faq" id="faq">
-            <div class="container row">
-                <h2 class="col s12">FAQ</h2>
-                <div class="col s12 m6 l6">
-                    <ul class="collapsible">
-                        <li>
-                            <div class="collapsible-header"><h6>What is a hackathon?</h6></div>
-                            <div class="collapsible-body"><p>A hackathon is a weekend of fun and learning. You'll become a better programmer, meet awesome people,
-                                and make cool stuff. There will also be opportunities to win cool prizes and network with our sponsors.</p></div>
-                        </li>
-                    </ul>
-                    <ul class="collapsible">
-                        <li>
-                            <div class="collapsible-header"><h6>What if I'm in high school?</h6></div>
-                            <div class="collapsible-body"><p>As long as you'll be 18 by November 3rd, 2017, we would love for you to come to HackNC. Unfortunately
-                                (because of the incredible amount of paperwork involved) we won't be able to accept anyone under the
-                                age of 18.</p></div>
-                        </li>
-                    </ul>
-                    <ul class="collapsible">
-                        <li>
-                            <div class="collapsible-header"><h6>Can I hack?</h6></div>
-                            <div class="collapsible-body"><p>High schoolers over 18, undergraduates, and graduate students are welcome to participate as hackers. Professionals
-                                should check out mentorship.</p></div>
-                        </li>
-                    </ul>
-                    <ul class="collapsible">
-                        <li>
-                            <div class="collapsible-header"><h6>How do I get in?</h6></div>
-                            <div class="collapsible-body"><p>Anyone can attend HackNC. Our admission criteria doesn't include your level of experience. However, the
-                                registration system is still under construction, join our mailing list to get updates!</p></div>
-                        </li>
-                    </ul>
-                    <ul class="collapsible">
-                        <li>
-                            <div class="collapsible-header"><h6>Got any hardware?</h6></div>
-                            <div class="collapsible-body"><p>You bet! MLH is providing the <a href="https://mlh.io/hardware-lab"></a>full hardware lab</a>. In addition,
-                                we will have soldering kits and other assorted components, Arduinos, Raspberry Pis, sensors, and more
-                                stickers than you can wear on four limbs...</p></div>
-                        </li>
-                    </ul>
-                    <ul class="collapsible">
-                        <li>
-                            <div class="collapsible-header"><h6>Can I mentor?</h6></div>
-                            <div class="collapsible-body"><p>Professionals are welcome to join as mentors, sponsors, or lecturers. If you want to come as a mentor,
-                                contact us!</p></div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col s12 m6 l6">
-                    <ul class="collapsible">
-                        <li>
-                            <div class="collapsible-header"><h6>Will I fit in?</h6></div>
-                            <div class="collapsible-body"><p>Definitely! HackNC and the UNC Computer Science Department are committed to making computer science a
-                                more diverse field. Inclusiveness is a top priority for us, and we've been beginner-friendly from the
-                                start.
-                            </p></div>
-                        </li>
-                    </ul>
-                    <ul class="collapsible">
-                        <li>
-                            <div class="collapsible-header"><h6>Can I use old code?</h6></div>
-                            <div class="collapsible-body"><p>You may use all the publicly available code and APIs that you want, but the code you will be judged on
-                                at the end of the hackathon must be new.</p></div>
-                        </li>
-                    </ul>
-                    <ul class="collapsible">
-                        <li>
-                            <div class="collapsible-header"><h6>What about sleep?</h6></div>
-                            <div class="collapsible-body"><p>You should do it! Bring your own pillow and sleeping bag or blankets. There will be a sleeping space available
-                                Friday and Saturday nights. More info available on our travel page.</p></div>
-                        </li>
-                    </ul>
-                    <ul class="collapsible">
-                        <li>
-                            <div class="collapsible-header"><h6>Travel costs?</h6></div>
-                            <div class="collapsible-body"><p>If you want to come, we want to help get you here. We will have a limited number of reimbursements for
-                                carpooling.
-                            </p></div>
-                        </li>
-                    </ul>
-                    <ul class="collapsible">
-                        <li>
-                            <div class="collapsible-header"><h6>Will there be food?</h6></div>
-                            <div class="collapsible-body"><p>Don’t worry - we’ll provide six full meals throughout the hackathon and there will be plenty of snacks
-                                in between. You won’t be hungry.</p></div>
-                        </li>
-                    </ul>
-                    <ul class="collapsible">
-                        <li>
-                            <div class="collapsible-header"><h6>How can I volunteer or mentor?</h6></div>
-                            <div class="collapsible-body"><p>Please join our mailing list above, we will send out information later this fall.</p></div>
-                        </li>
-                    </ul>
+        <div class="info">
+            <div class="section light about" id="about">
+                <div class="container row">
+                    <h2>General Information</h2>
+                    <p>HackNC 2018 will take place on October 6th and 7th in Murray
+                    and Venable Halls at UNC-Chapel Hill!</p>
+                    <p>HackNC is a weekend for students of all skill levels to broaden their talents. Your challenge is to make
+                        an awesome project in just 24 hours. You will have access to hands-on workshops and demos from our sponsors,
+                        as well as exciting talks about the awesome things happening right now with computer science and technology
+                        - not to mention all of the free food, shirts, stickers, and swag!</p>
+                    <p>HackNC begins with just a weekend, but we hope you will whet skills, make friends, and foster ideas here
+                        that flourish. Ready to apply? You'll need a laptop and your fanciest thinking cap - everything else
+                        is on us. Get started now.</p>
+                    <p>HackNC is an MLH-sponsored event, as such, we follow the MLH
+                    <a href="http://mlh.io/code-of-conduct">code of conduct</a>.</p>
                 </div>
             </div>
-        </div>
-        <div class="section light travel">
-            <div class="container">
-                <h2>Travel</h2>
-                <div class='row'>
-                    <div class='col s12'>
-                        <h4>Parking</h4>
-                        <p>Free parking is available over the weekend everywhere on campus, but we recommend the following decks:</p>
-                        <ul>
-                            <li><a href="https://www.google.com/maps/dir/Cobb+Parking+Deck,+Chapel+Hill,+NC+27514/Venable+Hall,+Chapel+Hill,+NC/@35.9107127,-79.0472257,18z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89acc2ea68ddf24b:0x38f6620f02eadfae!2m2!1d-79.0456262!2d35.9117533!1m5!1m1!1s0x89acc2ebb8543153:0x6c83a40e14111825!2m2!1d-79.0459804!2d35.9094423!3e2">Cobb Parking Deck</a></li>
-                            <li><a href="https://www.google.com/maps/dir/Bell+Tower+Parking+Deck,+Chapel+Hill,+NCVenable+Hall,+Chapel+Hill,+NC/@35.9107127,-79.0472257,18z/data=!4m14!4m13!1m5!1m1!1s0x89acc2eedc3bd00f:0x2dd3a16fc7f5b0c9!2m2!1d-79.0500641!2d35.9067103!1m5!1m1!1s0x89acc2ebb8543153:0x6c83a40e14111825!2m2!1d-79.0459804!2d35.9094423!3e2">Bell Tower Parking Deck</a></li>
+
+            <div class="map-container">
+                <iframe frameborder="0" style="border:0"src="https://www.google.com/maps/d/embed?mid=1-4ZqI9gEqrLvmT1FYqdjMsMzZJ2h2uIB" allowfullscreen></iframe>
+            </div>
+
+            <div class="section dark faq" id="faq">
+                <div class="container row">
+                    <h2 class="col s12">FAQ</h2>
+                    <div class="col s12 m6 l6">
+                        <ul class="collapsible">
+                            <li>
+                                <div class="collapsible-header"><h6>What is a hackathon?</h6></div>
+                                <div class="collapsible-body"><p>A hackathon is a weekend of fun and learning. You'll become a better programmer, meet awesome people,
+                                    and make cool stuff. There will also be opportunities to win cool prizes and network with our sponsors.</p></div>
+                            </li>
+                        </ul>
+                        <ul class="collapsible">
+                            <li>
+                                <div class="collapsible-header"><h6>What if I'm in high school?</h6></div>
+                                <div class="collapsible-body"><p>As long as you'll be 18 by November 3rd, 2017, we would love for you to come to HackNC. Unfortunately
+                                    (because of the incredible amount of paperwork involved) we won't be able to accept anyone under the
+                                    age of 18.</p></div>
+                            </li>
+                        </ul>
+                        <ul class="collapsible">
+                            <li>
+                                <div class="collapsible-header"><h6>Can I hack?</h6></div>
+                                <div class="collapsible-body"><p>High schoolers over 18, undergraduates, and graduate students are welcome to participate as hackers. Professionals
+                                    should check out mentorship.</p></div>
+                            </li>
+                        </ul>
+                        <ul class="collapsible">
+                            <li>
+                                <div class="collapsible-header"><h6>How do I get in?</h6></div>
+                                <div class="collapsible-body"><p>Anyone can attend HackNC. Our admission criteria doesn't include your level of experience. However, the
+                                    registration system is still under construction, join our mailing list to get updates!</p></div>
+                            </li>
+                        </ul>
+                        <ul class="collapsible">
+                            <li>
+                                <div class="collapsible-header"><h6>Got any hardware?</h6></div>
+                                <div class="collapsible-body"><p>You bet! MLH is providing the <a href="https://mlh.io/hardware-lab"></a>full hardware lab</a>. In addition,
+                                    we will have soldering kits and other assorted components, Arduinos, Raspberry Pis, sensors, and more
+                                    stickers than you can wear on four limbs...</p></div>
+                            </li>
+                        </ul>
+                        <ul class="collapsible">
+                            <li>
+                                <div class="collapsible-header"><h6>Can I mentor?</h6></div>
+                                <div class="collapsible-body"><p>Professionals are welcome to join as mentors, sponsors, or lecturers. If you want to come as a mentor,
+                                    contact us!</p></div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col s12 m6 l6">
+                        <ul class="collapsible">
+                            <li>
+                                <div class="collapsible-header"><h6>Will I fit in?</h6></div>
+                                <div class="collapsible-body"><p>Definitely! HackNC and the UNC Computer Science Department are committed to making computer science a
+                                    more diverse field. Inclusiveness is a top priority for us, and we've been beginner-friendly from the
+                                    start.
+                                </p></div>
+                            </li>
+                        </ul>
+                        <ul class="collapsible">
+                            <li>
+                                <div class="collapsible-header"><h6>Can I use old code?</h6></div>
+                                <div class="collapsible-body"><p>You may use all the publicly available code and APIs that you want, but the code you will be judged on
+                                    at the end of the hackathon must be new.</p></div>
+                            </li>
+                        </ul>
+                        <ul class="collapsible">
+                            <li>
+                                <div class="collapsible-header"><h6>What about sleep?</h6></div>
+                                <div class="collapsible-body"><p>You should do it! Bring your own pillow and sleeping bag or blankets. There will be a sleeping space available
+                                    Friday and Saturday nights. More info available on our travel page.</p></div>
+                            </li>
+                        </ul>
+                        <ul class="collapsible">
+                            <li>
+                                <div class="collapsible-header"><h6>Travel costs?</h6></div>
+                                <div class="collapsible-body"><p>If you want to come, we want to help get you here. We will have a limited number of reimbursements for
+                                    carpooling.
+                                </p></div>
+                            </li>
+                        </ul>
+                        <ul class="collapsible">
+                            <li>
+                                <div class="collapsible-header"><h6>Will there be food?</h6></div>
+                                <div class="collapsible-body"><p>Don’t worry - we’ll provide six full meals throughout the hackathon and there will be plenty of snacks
+                                    in between. You won’t be hungry.</p></div>
+                            </li>
+                        </ul>
+                        <ul class="collapsible">
+                            <li>
+                                <div class="collapsible-header"><h6>How can I volunteer or mentor?</h6></div>
+                                <div class="collapsible-body"><p>Please join our mailing list above, we will send out information later this fall.</p></div>
+                            </li>
                         </ul>
                     </div>
                 </div>
-                <div class='row'>
-                    <div class='col s12'>
-                        <h4>Carpools</h4>
-                        <p>A carpool consists of 3 or more students intending to participate in HackNC.
-                        If you were accepted, your carpool is automatically eligible for reimbursement of the value detailed below, which roughly corresponds to the round trip cost of gas. Limit one per carpool. Qualifications for carpool grants are as follows:</p>
-                        <ol>
-                            <li>RSVP via the link in your email</li>
-                            <li>Drive yourself and at least 2 passengers to HackNC.</li>
-                            <li>Submit a project at the end of HackNC.</li>
-                            <li>Submit a copy of gas receipts by Nov. 7, 2017.</li>
-                        </ol>
+            </div>
+            <div class="section light travel" id="travel">
+                <div class="container">
+                    <h2>Travel</h2>
+                    <div class='row'>
+                        <div class='col s12'>
+                            <h4>Parking</h4>
+                            <p>Free parking is available over the weekend everywhere on campus, but we recommend the following decks:</p>
+                            <ul>
+                                <li><a href="https://www.google.com/maps/dir/Cobb+Parking+Deck,+Chapel+Hill,+NC+27514/Venable+Hall,+Chapel+Hill,+NC/@35.9107127,-79.0472257,18z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89acc2ea68ddf24b:0x38f6620f02eadfae!2m2!1d-79.0456262!2d35.9117533!1m5!1m1!1s0x89acc2ebb8543153:0x6c83a40e14111825!2m2!1d-79.0459804!2d35.9094423!3e2">Cobb Parking Deck</a></li>
+                                <li><a href="https://www.google.com/maps/dir/Bell+Tower+Parking+Deck,+Chapel+Hill,+NCVenable+Hall,+Chapel+Hill,+NC/@35.9107127,-79.0472257,18z/data=!4m14!4m13!1m5!1m1!1s0x89acc2eedc3bd00f:0x2dd3a16fc7f5b0c9!2m2!1d-79.0500641!2d35.9067103!1m5!1m1!1s0x89acc2ebb8543153:0x6c83a40e14111825!2m2!1d-79.0459804!2d35.9094423!3e2">Bell Tower Parking Deck</a></li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-                
-                <div class='row'>
-                    <div class='col s12'>
-                        <h4>Carpool Amounts</h4>
-                        <table class='grant-table'>
-                            <tr><th>One-way distance</th><th>Grant Amount</th></tr>
-                            <tr><td>0 - 50 miles</td><td>$0</td></tr>
-                            <tr><td>51 - 100 miles</td><td>$20</td></tr>
-                            <tr><td>101 - 200 miles</td><td>$40</td></tr>
-                            <tr><td>201 - 300 miles</td><td>$60</td></tr>
-                            <tr><td>301 - 400 miles</td><td>$80</td></tr>
-                            <tr><td>401+ miles</td><td>$100</td></tr>
-                        </table>
-                        <br>
+                    <div class='row'>
+                        <div class='col s12'>
+                            <h4>Carpools</h4>
+                            <p>A carpool consists of 3 or more students intending to participate in HackNC.
+                            If you were accepted, your carpool is automatically eligible for reimbursement of the value detailed below, which roughly corresponds to the round trip cost of gas. Limit one per carpool. Qualifications for carpool grants are as follows:</p>
+                            <ol>
+                                <li>RSVP via the link in your email</li>
+                                <li>Drive yourself and at least 2 passengers to HackNC.</li>
+                                <li>Submit a project at the end of HackNC.</li>
+                                <li>Submit a copy of gas receipts by Nov. 7, 2017.</li>
+                            </ol>
+                        </div>
                     </div>
-                </div>
-                
-                <div class='row'>
-                    <div class='col s12'>
-                        <p>We cannot make exceptions to this policy. Grants will be distributed after the event by mail.</p>
-                        <h4>Travel Vouchers</h4>
-                        <p>HackNC has a limited number of $50 grants available to supplement the cost of bus/train/plane tickets. These vouchers may be available after all carpool requests are processed on a first-come, first-served basis.</p>
-                        <p>Note that travel grants are only available to hackers traveling from OUTSIDE the NC Triangle (UNC / NC State / Duke / etc.).</p>
+                    
+                    <div class='row'>
+                        <div class='col s12'>
+                            <h4>Carpool Amounts</h4>
+                            <table class='grant-table'>
+                                <tr><th>One-way distance</th><th>Grant Amount</th></tr>
+                                <tr><td>0 - 50 miles</td><td>$0</td></tr>
+                                <tr><td>51 - 100 miles</td><td>$20</td></tr>
+                                <tr><td>101 - 200 miles</td><td>$40</td></tr>
+                                <tr><td>201 - 300 miles</td><td>$60</td></tr>
+                                <tr><td>301 - 400 miles</td><td>$80</td></tr>
+                                <tr><td>401+ miles</td><td>$100</td></tr>
+                            </table>
+                            <br>
+                        </div>
+                    </div>
+                    
+                    <div class='row'>
+                        <div class='col s12'>
+                            <p>We cannot make exceptions to this policy. Grants will be distributed after the event by mail.</p>
+                            <h4>Travel Vouchers</h4>
+                            <p>HackNC has a limited number of $50 grants available to supplement the cost of bus/train/plane tickets. These vouchers may be available after all carpool requests are processed on a first-come, first-served basis.</p>
+                            <p>Note that travel grants are only available to hackers traveling from OUTSIDE the NC Triangle (UNC / NC State / Duke / etc.).</p>
+                        </div>
                     </div>
                 </div>
             </div>
