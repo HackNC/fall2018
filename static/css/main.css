@@ -33,13 +33,14 @@ main {
 
 .register-btn, .register-btn:focus {
   background-color: #FF8878;
-  color: #E94455;
+  color: #FFEDCC;
   font-weight: bold; }
 
 .register-btn:hover {
   background-color: #FF8878;
   color: #FFEDCC;
-  font-weight: bold; }
+  font-weight: bold;
+  text-decoration: underline; }
 
 nav {
   margin: 0px 0px 0px 20px;

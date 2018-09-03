@@ -46,7 +46,7 @@ main {
 
 .register-btn, .register-btn:focus {
     background-color: $g-light-red;
-    color: $g-red;
+    color: $g-off-white;
     font-weight: bold;
 }
 
@@ -54,6 +54,7 @@ main {
     background-color: $g-light-red;
     color: $g-off-white;
     font-weight: bold;
+    text-decoration: underline;
 }
 
 nav {
