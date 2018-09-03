@@ -7,6 +7,10 @@ body {
     font-size: 1em;
 }
 
+a {
+    color: $g-red;
+}
+
 .section {
     font-size: 1.3em;
 }
@@ -51,7 +55,7 @@ main {
     height: 60px;
     font-size: 1.5em;
     background-color: $g-light-red;
-    color: $g-off-white;
+    color: $f-color;
     text-transform: none;
     font-weight: 200;
     margin: 0.5em auto 1em auto;
@@ -59,9 +63,7 @@ main {
 
 .register-btn:hover {
     background-color: $g-light-red;
-    color: $g-off-white;
-    // font-weight: 400;
-    // text-decoration: underline;
+    color: $f-color;
 }
 
 nav {
@@ -139,19 +141,3 @@ footer a {
     white-space: nowrap;
     font-size: 120%;
 }
-
-// footer a {
-//     font-size: 250%;
-// }
-// footer a span{
-//     font-size: 0;
-// }
-
-// @media only screen and (max-width: 600px) {
-//     footer a {
-//         font-size: 250%;
-//     }
-//     footer a span{
-//         font-size: 0;
-//     }
-// }

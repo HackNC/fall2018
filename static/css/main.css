@@ -1,8 +1,11 @@
 body {
-  color: #FFEDCC !important;
+  color: #fcece3 !important;
   background: #3A3352;
   font-family: 'Quicksand', sans-serif;
   font-size: 1em; }
+
+a {
+  color: #E94455; }
 
 .section {
   font-size: 1.3em; }
@@ -14,7 +17,7 @@ main {
   background: #3A3352; }
 
 .light {
-  background: #FFEDCC;
+  background: #fcece3;
   color: #3A3352; }
 
 .banner {
@@ -37,14 +40,14 @@ main {
   height: 60px;
   font-size: 1.5em;
   background-color: #FF8878;
-  color: #FFEDCC;
+  color: #fcece3;
   text-transform: none;
   font-weight: 200;
   margin: 0.5em auto 1em auto; }
 
 .register-btn:hover {
   background-color: #FF8878;
-  color: #FFEDCC; }
+  color: #fcece3; }
 
 nav {
   width: 100%;
@@ -52,7 +55,7 @@ nav {
   font-family: "Quicksand"; }
 
 nav ul a {
-  color: #FFEDCC;
+  color: #fcece3;
   margin: 0px 0px 0px 20px;
   font-size: 1.2rem; }
 
@@ -69,19 +72,19 @@ nav ul a {
   visibility: hidden; }
 
 .collapsible {
-  border: 5px solid #f9d695;
+  border: 5px solid #fcece3;
   border-radius: 5px;
   color: #3A3352; }
 
 .collapsible-header {
-  background: #FFEDCC;
+  background: #fcece3;
   border-bottom: 0px; }
   .collapsible-header h6 {
     font-weight: 600; }
 
 .collapsible-body {
   padding: 1rem;
-  color: #FFEDCC;
+  color: #fcece3;
   border-bottom: 0px; }
   .collapsible-body p {
     margin: 0 0 0 0; }
@@ -100,10 +103,10 @@ footer {
   background-color: #3A3352 !important; }
 
 footer h2 {
-  color: #FFEDCC; }
+  color: #fcece3; }
 
 footer a {
-  color: #FFEDCC;
+  color: #fcece3;
   text-decoration: none;
   white-space: nowrap;
   font-size: 120%; }
