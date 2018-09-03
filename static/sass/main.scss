@@ -83,6 +83,13 @@ nav ul a {
     position: fixed;
 }
 
+.nav-anchor {
+    display: block;
+    position: relative;
+    top: -64px;
+    visibility: hidden;
+}
+
 .collapsible {
     border: 5px solid $border;
     border-radius: 5px;
@@ -133,11 +140,18 @@ footer a {
     font-size: 120%;
 }
 
-@media only screen and (max-width: 600px) {
-    footer a {
-        font-size: 250%;
-    }
-    footer a span{
-        font-size: 0;
-    }
-}
+// footer a {
+//     font-size: 250%;
+// }
+// footer a span{
+//     font-size: 0;
+// }
+
+// @media only screen and (max-width: 600px) {
+//     footer a {
+//         font-size: 250%;
+//     }
+//     footer a span{
+//         font-size: 0;
+//     }
+// }
