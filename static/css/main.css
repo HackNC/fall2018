@@ -31,9 +31,14 @@ main {
 .hacknc {
   margin-top: 0; }
 
-.register-btn {
+.register-btn, .register-btn:focus {
   background-color: #FF8878;
   color: #E94455;
+  font-weight: bold; }
+
+.register-btn:hover {
+  background-color: #FF8878;
+  color: #FFEDCC;
   font-weight: bold; }
 
 nav {

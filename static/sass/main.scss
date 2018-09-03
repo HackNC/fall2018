@@ -44,9 +44,15 @@ main {
     margin-top: 0;
 }
 
-.register-btn {
+.register-btn, .register-btn:focus {
     background-color: $g-light-red;
     color: $g-red;
+    font-weight: bold;
+}
+
+.register-btn:hover {
+    background-color: $g-light-red;
+    color: $g-off-white;
     font-weight: bold;
 }
 
