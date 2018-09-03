@@ -1,0 +1,105 @@
+@import "components/palette";
+
+body {
+    color: $f-color !important;
+    background: $g-plum;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
+    height: 100vh;
+}
+
+main {
+    background: $g-plum;
+}
+
+.dark {
+    background: $g-plum;
+}
+
+.light {
+    background: $light-bg;
+    color: $g-plum;
+}
+
+.logo {
+    display: block;
+    max-height: 30%;
+    max-width: 40%;
+    margin: auto;
+    z-index: -1;
+}
+
+
+@media only screen and (max-width: 600px) {
+    #logo {
+        max-width: 100%;
+    }
+}
+
+.hacknc {
+    margin-top: 0;
+}
+
+.register-btn {
+    background-color: $g-light-red;
+    color: $g-red;
+    font-weight: bold;
+}
+
+nav {
+    width: 100%;
+    background-color: $g-plum;
+    font-family: "Quicksand";
+}
+
+nav ul a {
+    font-size: 1.2rem;
+}
+
+.nfixed {
+    margin-top: 0;
+    top: 0;
+    z-index: 100;
+    position: fixed;
+}
+
+.collapsible {
+    border: 5px solid $border;
+    border-radius: 5px;
+    color: $g-plum;
+}
+
+.collapsible-header {
+    background: $light-bg;
+    border-bottom: 0px;
+}
+
+.collapsible-body {
+    padding: 1rem;
+    color: $light-bg;
+    border-bottom: 0px;
+    p {
+        margin: 0 0 0 0;
+    }
+}
+
+footer {
+    background-color: $g-plum !important;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    white-space: nowrap;
+    font-size: 120%;
+}
+
+@media only screen and (max-width: 600px) {
+    footer a {
+        font-size: 250%;
+    }
+    footer a span{
+        font-size: 0;
+    }
+}
+      

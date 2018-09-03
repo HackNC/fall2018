@@ -1,99 +1,82 @@
 body {
-    color: #FFEDCC !important;
-    font-family: Comfortaa;
-}
+  color: #FFEDCC !important;
+  background: #3A3352;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1rem;
+  height: 100vh; }
 
-#content {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: #3A3352;
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
-    z-index: -99;
-}
+main {
+  background: #3A3352; }
 
-#logo {
-    display: block;
-    max-height: 40%;
-    max-width: 60%;
-    margin: auto;
-    z-index: -1;
-}
+.dark {
+  background: #3A3352; }
 
-@media only screen and (max-width: 600px) {
-    #logo {
-        max-width: 100%;
-    }
-}
+.light {
+  background: #FFEDCC;
+  color: #3A3352; }
 
-#hacknc {
-    margin: 1rem auto auto auto !important;
-}
-
-#fall2018 {
-    margin: 0 auto auto auto !important;
-}
-
-.email-section .row {
-    margin-bottom: 0;
-}
-
-#email-ifield {
-    width: 80%;
-    margin: 0 auto 0 auto;
-}
-
-#email {
-    color: #FFEDCC;
-}
-
-.input-field input[type=email]:focus + label {
-    color: #FF8878 !important;
-}
-
-/* Color of email input line when the form is in focus */
-.input-field input[type=email]:focus {
-    border-bottom: 2px solid #FFEDCC !important;
-    box-shadow: 0 1px 0 0 black !important;
-}
-
-/* Color of email input line with valid input */
-.input-field input[type=email].valid {
-    border-bottom: 2px solid #FEB252 !important;
-    box-shadow: 0 1px 0 0 black !important;
-}
-
-/* Color of email input line with invalid input */
-.input-field input[type=email].invalid {
-    border-bottom: 2px solid #E94455 !important;
-    box-shadow: 0 1px 0 0 black !important;
-}
-
-#submit-email {
-    background-color: #FEB252;
-    color: #3A3352;
-}
-
-.contact {
-    background-color: rgba(0,0,0,0) !important;
-    position: relative;
-    width: 100%;
-}
-
-.contact a {
-    color: #FFEDCC;
-    text-decoration: none;
-    white-space: nowrap;
-    font-size: 120%;
-}
+.logo {
+  display: block;
+  max-height: 30%;
+  max-width: 40%;
+  margin: auto;
+  z-index: -1; }
 
 @media only screen and (max-width: 600px) {
-    .contact a {
-        font-size: 250%;
-    }
-    .contact a span{
-        font-size: 0;
-    }
-}
+  #logo {
+    max-width: 100%; } }
+.hacknc {
+  margin-top: 0; }
+
+.register-btn {
+  background-color: #FF8878;
+  color: #E94455;
+  font-weight: bold; }
+
+nav {
+  width: 100%;
+  background-color: #3A3352;
+  font-family: "Quicksand"; }
+
+nav ul a {
+  font-size: 1.2rem; }
+
+.nfixed {
+  margin-top: 0;
+  top: 0;
+  z-index: 100;
+  position: fixed; }
+
+.collapsible {
+  border: 5px solid #f9d695;
+  border-radius: 5px;
+  color: #3A3352; }
+
+.collapsible-header {
+  background: #FFEDCC;
+  border-bottom: 0px; }
+
+.collapsible-body {
+  padding: 1rem;
+  color: #FFEDCC;
+  border-bottom: 0px; }
+  .collapsible-body p {
+    margin: 0 0 0 0; }
+
+footer {
+  background-color: #3A3352 !important; }
+
+footer a {
+  color: white;
+  text-decoration: none;
+  white-space: nowrap;
+  font-size: 120%; }
+
+@media only screen and (max-width: 600px) {
+  footer a {
+    font-size: 250%; }
+
+  footer a span {
+    font-size: 0; } }
+
+/*# sourceMappingURL=main.css.map */
