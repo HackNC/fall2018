@@ -2,8 +2,11 @@ body {
   color: #FFEDCC !important;
   background: #3A3352;
   font-family: 'Quicksand', sans-serif;
-  font-size: 1rem;
+  font-size: 1em;
   height: 100vh; }
+
+.section {
+  font-size: 1.3em; }
 
 main {
   background: #3A3352; }

@@ -4,8 +4,12 @@ body {
     color: $f-color !important;
     background: $g-plum;
     font-family: 'Quicksand', sans-serif;
-    font-size: 1rem;
+    font-size: 1em;
     height: 100vh;
+}
+
+.section {
+    font-size: 1.3em;
 }
 
 main {
