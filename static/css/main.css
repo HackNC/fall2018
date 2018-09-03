@@ -63,6 +63,16 @@ nav ul a {
   .collapsible-body p {
     margin: 0 0 0 0; }
 
+.map-container {
+  width: 100%;
+  height: 400px; }
+
+.map-container iframe {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
 footer {
   background-color: #3A3352 !important; }
 
