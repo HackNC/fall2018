@@ -5,7 +5,7 @@ body {
     background: $g-plum;
     font-family: 'Quicksand', sans-serif;
     font-size: 1em;
-    height: 100vh;
+    height: 100%;
 }
 
 .section {
@@ -14,6 +14,7 @@ body {
 
 main {
     background: $g-plum;
+    height: 100%;
 }
 
 .dark {
@@ -25,17 +26,20 @@ main {
     color: $g-plum;
 }
 
+.banner {
+    height: 100%;
+}
+
 .logo {
     display: block;
-    max-height: 30%;
-    max-width: 40%;
+    max-width: 42%;
     margin: auto;
     z-index: -1;
 }
 
 
 @media only screen and (max-width: 600px) {
-    #logo {
+    .logo {
         max-width: 100%;
     }
 }
@@ -45,16 +49,21 @@ main {
 }
 
 .register-btn, .register-btn:focus {
+    width: 300px;
+    height: 60px;
+    font-size: 1.5em;
     background-color: $g-light-red;
     color: $g-off-white;
-    font-weight: bold;
+    text-transform: none;
+    font-weight: 200;
+    margin: 0.5em auto 1em auto;
 }
 
 .register-btn:hover {
     background-color: $g-light-red;
     color: $g-off-white;
-    font-weight: bold;
-    text-decoration: underline;
+    // font-weight: 400;
+    // text-decoration: underline;
 }
 
 nav {
@@ -64,6 +73,7 @@ nav {
 }
 
 nav ul a {
+    color: $f-color;
     margin: 0px 0px 0px 20px;
     font-size: 1.2rem;
 }
@@ -84,6 +94,9 @@ nav ul a {
 .collapsible-header {
     background: $light-bg;
     border-bottom: 0px;
+    h6 {
+        font-weight: 600;
+    }
 }
 
 .collapsible-body {
@@ -107,13 +120,16 @@ nav ul a {
     height: 100%;
 }
 
-
 footer {
     background-color: $g-plum !important;
 }
 
+footer h2 {
+    color: $f-color;
+}
+
 footer a {
-    color: white;
+    color: $f-color;
     text-decoration: none;
     white-space: nowrap;
     font-size: 120%;

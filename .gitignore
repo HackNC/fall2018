@@ -3,6 +3,7 @@ config.py
 email_list
 *_bak/
 brian.jpg
+.sass-cache/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

@@ -3,13 +3,14 @@ body {
   background: #3A3352;
   font-family: 'Quicksand', sans-serif;
   font-size: 1em;
-  height: 100vh; }
+  height: 100%; }
 
 .section {
   font-size: 1.3em; }
 
 main {
-  background: #3A3352; }
+  background: #3A3352;
+  height: 100%; }
 
 .dark {
   background: #3A3352; }
@@ -18,29 +19,34 @@ main {
   background: #FFEDCC;
   color: #3A3352; }
 
+.banner {
+  height: 100%; }
+
 .logo {
   display: block;
-  max-height: 30%;
-  max-width: 40%;
+  max-width: 42%;
   margin: auto;
   z-index: -1; }
 
 @media only screen and (max-width: 600px) {
-  #logo {
+  .logo {
     max-width: 100%; } }
 .hacknc {
   margin-top: 0; }
 
 .register-btn, .register-btn:focus {
+  width: 300px;
+  height: 60px;
+  font-size: 1.5em;
   background-color: #FF8878;
   color: #FFEDCC;
-  font-weight: bold; }
+  text-transform: none;
+  font-weight: 200;
+  margin: 0.5em auto 1em auto; }
 
 .register-btn:hover {
   background-color: #FF8878;
-  color: #FFEDCC;
-  font-weight: bold;
-  text-decoration: underline; }
+  color: #FFEDCC; }
 
 nav {
   width: 100%;
@@ -48,6 +54,7 @@ nav {
   font-family: "Quicksand"; }
 
 nav ul a {
+  color: #FFEDCC;
   margin: 0px 0px 0px 20px;
   font-size: 1.2rem; }
 
@@ -65,6 +72,8 @@ nav ul a {
 .collapsible-header {
   background: #FFEDCC;
   border-bottom: 0px; }
+  .collapsible-header h6 {
+    font-weight: 600; }
 
 .collapsible-body {
   padding: 1rem;
@@ -86,8 +95,11 @@ nav ul a {
 footer {
   background-color: #3A3352 !important; }
 
+footer h2 {
+  color: #FFEDCC; }
+
 footer a {
-  color: white;
+  color: #FFEDCC;
   text-decoration: none;
   white-space: nowrap;
   font-size: 120%; }
