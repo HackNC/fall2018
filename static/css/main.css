@@ -42,6 +42,7 @@ main {
   font-weight: bold; }
 
 nav {
+  margin: 0px 0px 0px 20px;
   width: 100%;
   background-color: #3A3352;
   font-family: "Quicksand"; }
