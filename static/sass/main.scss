@@ -50,7 +50,7 @@ main {
     margin-top: 0;
 }
 
-.register-btn, .register-btn:focus {
+.form-btn, .form-btn:focus {
     width: 300px;
     height: 60px;
     font-size: 1.5em;
@@ -61,7 +61,7 @@ main {
     margin: 0.5em auto 1em auto;
 }
 
-.register-btn:hover {
+.form-btn:hover {
     background-color: $g-light-red;
     color: $f-color;
 }

@@ -35,7 +35,7 @@ main {
 .hacknc {
   margin-top: 0; }
 
-.register-btn, .register-btn:focus {
+.form-btn, .form-btn:focus {
   width: 300px;
   height: 60px;
   font-size: 1.5em;
@@ -45,7 +45,7 @@ main {
   font-weight: 200;
   margin: 0.5em auto 1em auto; }
 
-.register-btn:hover {
+.form-btn:hover {
   background-color: #FF8878;
   color: #fcece3; }
 
