@@ -3,9 +3,6 @@ var SCROLLSPY_TIME = 700;
 $(document).ready(function(){
     $('.sidenav').sidenav();
     $('.collapsible').collapsible();
-    var nav_offset = $('nav').offset();
-    console.log($('nav').height());
-    console.log(nav_offset.top);
     $("#space-holder").height($('nav').height());
 });
 
