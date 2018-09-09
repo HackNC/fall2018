@@ -127,16 +127,33 @@ nav ul a {
     height: 100%;
 }
 
-footer {
-    background-color: $g-plum !important;
+.sponsor-image {
+    display: inline-block;
+    width: 40%;
+    min-width: 300px;
 }
 
-footer h2 {
-    color: $f-color;
-}
+// .tier-4 {
+    
+// }
+
+// .tier-3 {
+//     width: 30%;
+//     min-width: 250px;
+// }
+
+// .tier-2 {
+//     width: 25%;
+//     min-width: 250px;
+// }
+
+// .tier-1 {
+//     width: 16%;
+//     min-width: 200px;
+// }
 
 footer a {
-    color: $f-color;
+    color: $dark-bg;
     text-decoration: none;
     white-space: nowrap;
     font-size: 120%;
