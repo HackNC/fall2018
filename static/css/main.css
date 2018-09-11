@@ -40,6 +40,7 @@ main {
   width: 25vw;
   height: 60px;
   font-size: 1em;
+  overflow: hidden;
   background-color: #FF8878;
   color: #fcece3;
   text-transform: none;
