@@ -5,7 +5,8 @@ body {
   font-size: 1em; }
 
 a {
-  color: #E94455; }
+  color: #E94455;
+  font-weight: bold; }
 
 .section {
   font-size: 1.3em; }
@@ -21,7 +22,7 @@ main {
   color: #3A3352; }
 
 .banner {
-  height: 100vh; }
+  min-height: 100vh; }
 
 .logo {
   display: block;
@@ -36,9 +37,9 @@ main {
   margin-top: 0; }
 
 .form-btn, .form-btn:focus {
-  width: 350px;
+  width: 25vw;
   height: 60px;
-  font-size: 1.5em;
+  font-size: 1em;
   background-color: #FF8878;
   color: #fcece3;
   text-transform: none;
@@ -49,8 +50,11 @@ main {
   background-color: #FF8878;
   color: #fcece3; }
 
+@media only screen and (max-width: 600px) {
+  .form-btn, .form-btn:focus, .form-btn:hover {
+    width: 70vw; } }
 .modal .form-btn {
-  width: 60%; }
+  font-size: 1.5em; }
 
 nav {
   width: 100%;
@@ -60,7 +64,8 @@ nav {
 nav ul a {
   color: #fcece3;
   margin: 0px 0px 0px 20px;
-  font-size: 1.2rem; }
+  font-size: 1.2rem;
+  font-weight: normal; }
 
 .nfixed {
   margin-top: 0;
@@ -111,6 +116,7 @@ footer a {
   color: #3A3352;
   text-decoration: none;
   white-space: nowrap;
-  font-size: 120%; }
+  font-size: 120%;
+  font-weight: normal; }
 
 /*# sourceMappingURL=main.css.map */
