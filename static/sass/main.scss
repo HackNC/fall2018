@@ -51,7 +51,7 @@ main {
 }
 
 .form-btn, .form-btn:focus {
-    width: 300px;
+    width: 350px;
     height: 60px;
     font-size: 1.5em;
     background-color: $g-light-red;
@@ -64,6 +64,13 @@ main {
 .form-btn:hover {
     background-color: $g-light-red;
     color: $f-color;
+}
+
+
+.modal {
+    .form-btn {
+        width: 60%;
+    }
 }
 
 nav {

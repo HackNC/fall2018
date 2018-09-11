@@ -4,6 +4,7 @@ $(document).ready(function(){
     $('.sidenav').sidenav();
     $('.collapsible').collapsible();
     $("#space-holder").height($('nav').height());
+    $('.modal').modal();
 });
 
 // Smooth scroll to hash -- selects each used link with hashes.
