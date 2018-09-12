@@ -108,13 +108,13 @@ nav ul a {
 }
 
 .collapsible {
-    border: 5px solid $border;
+    border: 5px solid $dark-bg;
     border-radius: 5px;
-    color: $g-plum;
+    color: $f-color;
 }
 
 .collapsible-header {
-    background: $light-bg;
+    background: $dark-bg;
     border-bottom: 0px;
     h6 {
         font-weight: 600;
@@ -123,7 +123,7 @@ nav ul a {
 
 .collapsible-body {
     padding: 1rem;
-    color: $light-bg;
+    color: $dark-bg;
     border-bottom: 0px;
     p {
         margin: 0 0 0 0;
@@ -149,7 +149,7 @@ nav ul a {
 }
 
 footer a {
-    color: $dark-bg;
+    color: $light-bg;
     text-decoration: none;
     white-space: nowrap;
     font-size: 120%;
