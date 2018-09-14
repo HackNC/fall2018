@@ -5,7 +5,8 @@ body {
   font-size: 1em; }
 
 a {
-  color: #E94455; }
+  color: #E94455;
+  font-weight: bold; }
 
 .section {
   font-size: 1.3em; }
@@ -21,7 +22,7 @@ main {
   color: #3A3352; }
 
 .banner {
-  height: 100vh; }
+  min-height: 100vh; }
 
 .logo {
   display: block;
@@ -36,9 +37,10 @@ main {
   margin-top: 0; }
 
 .form-btn, .form-btn:focus {
-  width: 300px;
+  width: 20vw;
   height: 60px;
-  font-size: 1.5em;
+  font-size: 1em;
+  overflow: hidden;
   background-color: #FF8878;
   color: #fcece3;
   text-transform: none;
@@ -49,6 +51,12 @@ main {
   background-color: #FF8878;
   color: #fcece3; }
 
+@media only screen and (max-width: 600px) {
+  .form-btn, .form-btn:focus, .form-btn:hover {
+    width: 70vw; } }
+.modal .form-btn {
+  font-size: 1.5em; }
+
 nav {
   width: 100%;
   background-color: #3A3352;
@@ -57,7 +65,8 @@ nav {
 nav ul a {
   color: #fcece3;
   margin: 0px 0px 0px 20px;
-  font-size: 1.2rem; }
+  font-size: 1.2rem;
+  font-weight: normal; }
 
 .nfixed {
   margin-top: 0;
@@ -72,19 +81,19 @@ nav ul a {
   visibility: hidden; }
 
 .collapsible {
-  border: 5px solid #fcece3;
+  border: 5px solid #3A3352;
   border-radius: 5px;
-  color: #3A3352; }
+  color: #fcece3; }
 
 .collapsible-header {
-  background: #fcece3;
+  background: #3A3352;
   border-bottom: 0px; }
   .collapsible-header h6 {
     font-weight: 600; }
 
 .collapsible-body {
   padding: 1rem;
-  color: #fcece3;
+  color: #3A3352;
   border-bottom: 0px; }
   .collapsible-body p {
     margin: 0 0 0 0; }
@@ -101,13 +110,14 @@ nav ul a {
 
 .sponsor-image {
   display: inline-block;
-  width: 40%;
-  min-width: 300px; }
+  width: 30%;
+  min-width: 200px; }
 
 footer a {
-  color: #3A3352;
+  color: #fcece3;
   text-decoration: none;
   white-space: nowrap;
-  font-size: 120%; }
+  font-size: 120%;
+  font-weight: normal; }
 
 /*# sourceMappingURL=main.css.map */
