@@ -142,6 +142,11 @@ nav ul a {
     height: 100%;
 }
 
+.sponsors {
+    background: $sponsor-bg;
+    color: $dark-bg;
+}
+
 .sponsor-image {
     display: inline-block;
     width: 30%;

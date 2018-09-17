@@ -108,6 +108,10 @@ nav ul a {
   width: 100%;
   height: 100%; }
 
+.sponsors {
+  background: white;
+  color: #3A3352; }
+
 .sponsor-image {
   display: inline-block;
   width: 30%;
