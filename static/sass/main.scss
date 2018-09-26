@@ -175,8 +175,10 @@ nav ul a {
     max-height: 100px;
 }
 
-.sponsor-row .col {
-    float: none;
+@media only screen and (max-width: 600px) {
+    .sponsor-row .col {
+        float: none;
+    }
 }
 
 footer a {
