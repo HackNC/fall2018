@@ -20,9 +20,9 @@ $(document).ready(function(){
             $table.append(
                 $('<thead>').append(
                     $('<tr>')
-                      .append($('<th>', {"style": "width:20%;"}).text('Time'))
-                      .append($('<th>', {"style": "width:60%;"}).text('Event'))
-                      //.append($('<th>', {'style': "width:20%;"}).text('Location'))
+                      .append($('<th>', {"style": "width:25%;"}).text('Time'))
+                      .append($('<th>', {"style": "width:55%;"}).text('Event'))
+                      .append($('<th>', {'style': "width:20%;"}).text('Location'))
                 )
             );
 
@@ -33,7 +33,7 @@ $(document).ready(function(){
                     $('<tr>', {"class" : (i++ % 2 == 0 ? "even" : "odd")})
                       .append($('<td>').text(element['time']))
                       .append($('<td>').text(element['event']))
-                      //.append($('<td>').text(element['location']))
+                      .append($('<td>').text(element['location']))
                 )
             });
 
