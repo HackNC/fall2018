@@ -30,7 +30,7 @@ $(document).ready(function(){
                 var row = $('<tr>')
                 row.append('<td>')
                 $schBody.append(
-                    $('<tr>', {"class" : (i++ % 2 == 0 ? "even" : "odd")})
+                    $('<tr>', {"class" : (i++ % 2 == 0 ? "table-row-even" : "table-row-odd")})
                       .append($('<td>').text(element['time']))
                       .append($('<td>').text(element['event']))
                       .append($('<td>').text(element['location']))

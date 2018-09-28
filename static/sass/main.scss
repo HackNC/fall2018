@@ -142,6 +142,14 @@ nav ul a {
     height: 100%;
 }
 
+.table-row-odd {
+    background: $table-light;
+}
+
+.table-row-even {
+    background: $table-dark;
+}
+
 .sponsors {
     background: $sponsor-bg;
     color: $dark-bg;

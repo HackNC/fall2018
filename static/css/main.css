@@ -108,6 +108,12 @@ nav ul a {
   width: 100%;
   height: 100%; }
 
+.table-row-odd {
+  background: #3A3352; }
+
+.table-row-even {
+  background: #2d273f; }
+
 .sponsors {
   background: white;
   color: #3A3352; }
