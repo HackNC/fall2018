@@ -113,17 +113,18 @@ nav ul a {
   color: #3A3352; }
 
 .sponsor-image {
-  display: inline-block; }
+  display: inline-block;
+  max-width: 100%; }
 
 .tier-4 {
   max-width: 80%;
-  min-width: 300px;
+  min-width: 280px;
   max-height: 250px; }
 
 .tier-3 {
   max-width: 70%;
-  min-width: 260px;
-  max-height: 200px; }
+  min-width: 240px;
+  max-height: 180px; }
 
 .tier-2 {
   max-width: 70%;
@@ -134,6 +135,9 @@ nav ul a {
   max-width: 40%;
   min-width: 180px;
   max-height: 100px; }
+
+.sponsor-row {
+  margin-bottom: 0; }
 
 @media only screen and (max-width: 600px) {
   .sponsor-row .col {
