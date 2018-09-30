@@ -194,8 +194,12 @@ nav ul a {
     }
 }
 
+.prizes .dark {
+    background: $table-dark;
+}
+
 footer a {
-    color: $light-bg;
+    color: $dark-bg;
     text-decoration: none;
     white-space: nowrap;
     font-size: 120%;
