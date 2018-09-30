@@ -32,6 +32,9 @@ body {
   margin: 1rem 0 1rem 0 !important;
   width: 100% !important; }
 
+.twitter-timeline {
+  margin: 0 0 2rem 0 !important; }
+
 .card {
   margin: 0 0 2rem 0 !important;
   background-color: white;
