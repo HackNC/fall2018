@@ -14,12 +14,12 @@
             },
             {
                 "time": "Wednesday, Oct. 3rd, 5:00 PM",
-                "event": "'Ideate' - Coming up with a Brilliant Idea",
+                "event": "Intro to Flask: Crash Course in  Web Development",
                 "location": "Sitterson 014"
             },
             {
                 "time": "Thursday, Oct. 4th, 5:00 PM",
-                "event": "Intro to Flask: Crash Course in  Web Development",
+                "event": "'Ideate' - Coming up with a Brilliant Idea",
                 "location": "Fred Brooks 009"
             }
         ]
