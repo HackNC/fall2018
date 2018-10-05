@@ -28,6 +28,7 @@ body {
   width: 100% !important; }
 
 .twitter-timeline {
+  width: 100% !important;
   max-height: 300px;
   margin: 0 0 2rem 0 !important; }
 
@@ -92,5 +93,8 @@ body {
     border-bottom: 0; }
   .wifi-table tr td:last-child {
     padding-left: 20px; }
+
+.beam-logo {
+  width: 150px; }
 
 /*# sourceMappingURL=live.css.map */

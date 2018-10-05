@@ -62,6 +62,7 @@ body {
 }
 
 .twitter-timeline {
+    width: 100% !important;
     max-height: 300px;
     margin: 0 0 2rem 0 !important;
 }
@@ -151,4 +152,8 @@ body {
     tr td:last-child {
         padding-left: 20px;
     }
+}
+
+.beam-logo {
+    width: 150px;
 }
