@@ -39,7 +39,7 @@ main {
 .form-btn, .form-btn:focus {
   width: 20vw;
   height: 60px;
-  font-size: 1em;
+  font-size: 1.2em;
   overflow: hidden;
   background-color: #FF8878;
   color: #fcece3;
@@ -73,6 +73,10 @@ nav ul a {
   top: 0;
   z-index: 100;
   position: fixed; }
+
+.live-nav-link {
+  color: #FEB252;
+  font-weight: bold; }
 
 .nav-anchor {
   display: block;
