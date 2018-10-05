@@ -28,6 +28,7 @@ $a-tags-hover: 'a:active, a:hover';
 
 body {
     background-color: $dark-bg;
+    color: black;
 }
 
 .btn, .btn:focus {
@@ -124,6 +125,18 @@ body {
     font-size: 1rem;
 }
 
+.notify-btn {
+    width: 50%;
+
+    .btn {
+        width: 100%;
+    }
+}
+
+.hardware .btn {
+    font-size: 1rem;
+}
+
 .wifi-table {
     border-top: 1px solid #ddd;
     border-collapse: collapse;
@@ -152,6 +165,28 @@ body {
     tr td:last-child {
         padding-left: 20px;
     }
+}
+
+@media only screen and (min-width: 600px) {    
+    #floor-plans  {
+        height: 100%;
+        overflow: hidden;
+        
+        .modal-content {
+            height: 100%;
+            padding: 8px;
+
+            .carousel {
+                height: 100%;
+            }
+        }
+    }
+
+    .carousel-item {
+        top: -120px !important;
+        width: 40% !important;
+        height: 40% !important;
+    }   
 }
 
 .beam-logo {

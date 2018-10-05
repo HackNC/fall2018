@@ -46,7 +46,7 @@
         <nav class='nfixed'>
             <div class="nav-wrapper center">
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-                <ul class="hide-on-small-only">
+                <ul class="hide-on-med-and-down">
                     <li><a href="/live" class="live-nav-link">Live Dashboard</a></li>
                     <li><a href="/">Home</a></li>
                     <li><a href="/#about">About</a></li>
@@ -80,22 +80,32 @@
                     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>            
                     <div class='card'>
                         <div class="card-content black-text">
-                            <span class="card-title">Announcements and Notifications <i class="fa fa-comments-o"></i></span>
+                            <span class="card-title">Announcements & Notifications <i class="fa fa-comments-o"></i></span>
                             <p>Join one of the following and turn on notifications for updates</p>
                         </div>
                         <div class="card-action">
-                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSf8tbW84SsjsQ8ycAURBzcvrEbA6ZXT6rmqSZhoXuiAobIfXA/viewform?usp=sf_link"
-                                class="waves-effect wave-light btn">
-                                SMS</a>
-                            <a href="https://join.slack.com/t/hacknc2018/shared_invite/enQtNDM2ODQwNTQzMTQxLTViOWU2MWQ0MzdhN2YxN2M3MzUyOGJmZjM2ZDA4ZGU4ZjNmM2VkZmY0NTJhMjk5OTk0Y2Q4NGM3ZTEwMjkxMWQ"
-                                class="waves-effect wave-light btn">
-                                Slack</a>
-                            <a href="https://www.facebook.com/events/315958479137133/"
-                                class="waves-effect wave-light btn">
-                                Facebook</a>
-                            <a href="https://twitter.com/thehacknc"
-                                class="waves-effect wave-light btn">
-                                Twitter</a>                    
+                            <div class="row center">
+                                <div class="notify-btn col s12 m6">
+                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSf8tbW84SsjsQ8ycAURBzcvrEbA6ZXT6rmqSZhoXuiAobIfXA/viewform?usp=sf_link"
+                                        class="waves-effect wave-light btn">
+                                        SMS</a>
+                                </div>
+                                <div class="notify-btn col s12 m6">
+                                    <a href="https://join.slack.com/t/hacknc2018/shared_invite/enQtNDM2ODQwNTQzMTQxLTViOWU2MWQ0MzdhN2YxN2M3MzUyOGJmZjM2ZDA4ZGU4ZjNmM2VkZmY0NTJhMjk5OTk0Y2Q4NGM3ZTEwMjkxMWQ"
+                                        class="waves-effect wave-light btn">
+                                        Slack</a>
+                                </div>
+                                <div class="notify-btn col s12 m6">
+                                    <a href="https://www.facebook.com/events/315958479137133/"
+                                        class="waves-effect wave-light btn">
+                                        Facebook</a>
+                                </div>
+                                <div class="notify-btn col s12 m6">
+                                    <a href="https://twitter.com/thehacknc"
+                                        class="waves-effect wave-light btn">
+                                        Twitter</a>  
+                                </div>
+                            </div>                  
                         </div>
                     </div>
                     <div class='card'>
@@ -108,6 +118,25 @@
                                     <tr><td>UNC-HackNC</td><td>The password is 'MyRubyIsOffTheRails' - Visit the Help Desk if you need help setting up!</td></tr>
                                 </tbody>
                             </table>
+                        </div>
+                    </div>
+                    <div class='card'>
+                        <div class="card-content black-text">
+                            <span class="card-title">Maps & Floor Plans <i class="fas fa-map"></i></span>
+                            <p>Lost? Need to find a specific room? Check out the floor plans below for help!</p>
+                        </div>
+                        <div class="card-action">
+                            <a class="waves-effect waves-light btn modal-trigger" href="#floor-plans">Floor Plans</a>
+                        </div>
+                        <div id='floor-plans' class='modal'>
+                            <div class='modal-content light'>
+                                <b>Click on the image to view a larger version.</b>
+                                <div class="carousel center">
+                                    <a class="carousel-item responsive-img" href="/static/assets/images/floorplans/floor-gr.png"><img src="/static/assets/images/floorplans/floor-gr.png"></a>
+                                    <a class="carousel-item responsive-img" href="/static/assets/images/floorplans/floor-1.png"><img src="/static/assets/images/floorplans/floor-1.png"></a>
+                                    <a class="carousel-item responsive-img" href="/static/assets/images/floorplans/floor-2.png"><img src="/static/assets/images/floorplans/floor-2.png"></a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class='card'>
@@ -125,20 +154,20 @@
                         </div>
                         <div class="card-action">
                             <a href='https://hacknc2018.devpost.com/' 
-                                class="waves-effect wave-light btn">Devpost</a>
+                                class="waves-effect wave-light btn">Register on Devpost</a>
                         </div>
                     </div>
                     <div class='card'>
                         <div class="card-content black-text">
-                            <span class="card-title">Travel Reimbursement <i class="fa fa-suitcase"></i></span>
-                            <p>To recieve reimbursement, you must have: (1) Registered in advance, (2) Kept receipts, (3) Traveled more than 50 miles from school, and (4) Must have submitted a project. Fill out the below form to begin the process:</p>
+                            <span class="card-title">Mentors <i class="fa fa-users"></i></span>
+                            <p>Need help with your hack? Stuck? Need ideas? Talk to a mentor! This year, HackNC is using HelpQ.</p>
                         </div>
                         <div class="card-action">
-                            <a href='https://hacknc.typeform.com/to/VEoFv1' 
-                                class="waves-effect wave-light btn">Reimbursement Form</a>
+                            <a href='https://help.hacknc.com/' 
+                            class="waves-effect wave-light btn">Request a mentor</a>
                         </div>
                     </div>
-                    <div class='card'>
+                    <div class='card hardware'>
                         <div class="card-content black-text">
                             <span class="card-title">Hardware Lab <i class="fa fa-laptop"></i></span>
                             <p>We have hardware! If you want to borrow something, head on over to the Hardware desk. If you'd like to use a laser cutter or 3D printer from the UNC Makerspace, hit the button below!</p>
@@ -152,12 +181,12 @@
                     </div>
                     <div class='card'>
                         <div class="card-content black-text">
-                            <span class="card-title">Mentors  <i class="fa fa-users"></i></span>
-                            <p>Need help with your hack? Stuck? Need ideas? Talk to a mentor! This year, HackNC is using HelpQ.</p>
+                            <span class="card-title">Travel Reimbursement <i class="fa fa-suitcase"></i></span>
+                            <p>To recieve reimbursement, you must have: (1) Registered in advance, (2) Kept receipts, (3) Traveled more than 50 miles from school, and (4) Must have submitted a project. Fill out the below form to begin the process:</p>
                         </div>
                         <div class="card-action">
-                            <a href='https://help.hacknc.com/' 
-                            class="waves-effect wave-light btn">Request a mentor!</a>
+                            <a href='https://hacknc.typeform.com/to/VEoFv1' 
+                                class="waves-effect wave-light btn">Reimbursement Form</a>
                         </div>
                     </div>
                 </div>

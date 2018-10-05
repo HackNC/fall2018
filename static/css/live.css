@@ -1,5 +1,6 @@
 body {
-  background-color: #3A3352; }
+  background-color: #3A3352;
+  color: black; }
 
 .btn, .btn:focus {
   overflow: hidden;
@@ -75,6 +76,14 @@ body {
 .card-content p, td {
   font-size: 1rem; }
 
+.notify-btn {
+  width: 50%; }
+  .notify-btn .btn {
+    width: 100%; }
+
+.hardware .btn {
+  font-size: 1rem; }
+
 .wifi-table {
   border-top: 1px solid #ddd;
   border-collapse: collapse;
@@ -94,6 +103,20 @@ body {
   .wifi-table tr td:last-child {
     padding-left: 20px; }
 
+@media only screen and (min-width: 600px) {
+  #floor-plans {
+    height: 100%;
+    overflow: hidden; }
+    #floor-plans .modal-content {
+      height: 100%;
+      padding: 8px; }
+      #floor-plans .modal-content .carousel {
+        height: 100%; }
+
+  .carousel-item {
+    top: -120px !important;
+    width: 40% !important;
+    height: 40% !important; } }
 .beam-logo {
   width: 150px; }
 
