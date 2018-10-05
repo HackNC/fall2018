@@ -54,7 +54,7 @@ main {
 .form-btn, .form-btn:focus {
     width: 20vw;
     height: 60px;
-    font-size: 1em;
+    font-size: 1.2em;
     overflow: hidden;
     background-color: $g-light-red;
     color: $f-color;
@@ -98,6 +98,11 @@ nav ul a {
     top: 0;
     z-index: 100;
     position: fixed;
+}
+
+.live-nav-link {
+    color: $g-gold;
+    font-weight: bold;
 }
 
 .nav-anchor {

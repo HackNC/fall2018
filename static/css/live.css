@@ -1,10 +1,3 @@
-* {
-  font-family: 'Helvetica';
-  font-size: 1.1rem; }
-  @media only screen and (min-width: 768px) {
-    * {
-      font-size: 1.3rem; } }
-
 body {
   background-color: #3A3352; }
 
@@ -13,12 +6,14 @@ body {
   background-color: #FF8878;
   color: #fcece3;
   text-transform: none;
+  font-size: 1.2em;
   font-weight: 200;
   margin: 0.5em auto 1em auto; }
 
 .btn:hover {
   background-color: #FF8878;
-  color: #fcece3; }
+  color: #fcece3;
+  font-size: 1.2em; }
 
 .logo {
   height: 200px;
@@ -33,6 +28,7 @@ body {
   width: 100% !important; }
 
 .twitter-timeline {
+  max-height: 300px;
   margin: 0 0 2rem 0 !important; }
 
 .card {
