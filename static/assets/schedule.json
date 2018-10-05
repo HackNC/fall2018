@@ -78,14 +78,44 @@
                 "location": "-"
             },
             {
+                "time": "11:30 AM",
+                "event": "Design Thinking: Access to Healthcare",
+                "location": "Classroom 1"
+            },
+            {
+                "time": "11:30 AM",
+                "event": "Blockchain technology and Smart Contracts 101",
+                "location": "Classroom 2"
+            },
+            {
                 "time": "12:30 PM",
                 "event": "Lunch",
                 "location": "Murray Ground Floor"
             },
             {
+                "time": "1:30 PM",
+                "event": "Introduction to Git and Linux Bash",
+                "location": "Classroom 1"
+            },
+            {
+                "time": "1:30 PM",
+                "event": "Introduction to Machine Learning with Python",
+                "location": "Classroom 2"
+            },
+            {
+                "time": "2:30 PM",
+                "event": "Introduction to Dynamic Web Development",
+                "location": "Classroom 1"
+            },
+            {
                 "time": "6:30 PM",
                 "event": "Dinner",
                 "location": "Murray Ground Floor"
+            },
+            {
+                "time": "8:00 PM",
+                "event": "!Light",
+                "location": "Classroom 1"
             },
             {
                 "time": "12:00 AM",
