@@ -104,8 +104,23 @@
             },
             {
                 "time": "2:30 PM",
+                "event": "Crash Course in Web Development in Python",
+                "location": "Classroom 1"
+            },
+            {
+                "time": "2:30 PM",
+                "event": "CapitalOne Workshop",
+                "location": "Classroom 2"
+            },
+            {
+                "time": "3:30 PM",
                 "event": "Introduction to Dynamic Web Development",
                 "location": "Classroom 1"
+            },
+            {
+                "time": "3:30 PM",
+                "event": "Interviews and Resume Workshop by SentryOne",
+                "location": "Classroom 2"
             },
             {
                 "time": "6:30 PM",
