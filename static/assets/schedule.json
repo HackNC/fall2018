@@ -158,6 +158,11 @@
                 "location": "Murray G201, G205, Venable G311, G307"
             },
             {
+                "time": "1:00 PM",
+                "event": "Lunch",
+                "location": "Murray Ground Floor"
+            },
+            {
                 "time": "1:30 PM",
                 "event": "Closing Ceremony",
                 "location": "Murray G201"
