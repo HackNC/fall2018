@@ -31,9 +31,9 @@ $(document).ready(function(){
                 row.append('<td>')
                 $schBody.append(
                     $('<tr>', {"class" : (i++ % 2 == 0 ? "table-row-even" : "table-row-odd")})
-                      .append($('<td>').text(element['time']))
-                      .append($('<td>').text(element['event']))
-                      .append($('<td>').text(element['location']))
+                      .append($('<td>').html(element['time']))
+                      .append($('<td>').html(element['event']))
+                      .append($('<td>').html(element['location']))
                 )
             });
 

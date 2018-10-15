@@ -4,22 +4,22 @@
         "schedule": [
             {
                 "time": "Monday, Oct. 1st, 5:00 PM",
-                "event": "Introduction to Game Development",
+                "event": "Introduction to Game Development <br> by UNC Game Dev Club",
                 "location": "Sitterson 014"
             },
             {
                 "time": "Tuesday, Oct. 2nd, 5:00 PM",
-                "event": "Intro. to Mobile Development with Android Studio and React Native",
+                "event": "Intro. to Mobile Development with Android Studio and React Native <br> by <a href='https://jeffterrell.tech/'>Dr. Jeff Terrell</a>",
                 "location": "Fred Brooks 009"
             },
             {
                 "time": "Wednesday, Oct. 3rd, 5:00 PM",
-                "event": "Intro to Flask: Crash Course in  Web Development",
+                "event": "Intro to Flask: Crash Course in  Web Development <br> by UNC CS Club",
                 "location": "Sitterson 014"
             },
             {
                 "time": "Thursday, Oct. 4th, 5:00 PM",
-                "event": "'Ideate' - Coming up with a Brilliant Idea",
+                "event": "'Ideate' - Coming up with a Brilliant Idea <br> by <a href='http://steventking.com/'>Mr. Steven King</a>",
                 "location": "Fred Brooks 009"
             }
         ]
@@ -79,12 +79,12 @@
             },
             {
                 "time": "11:30 AM",
-                "event": "Design Thinking: Access to Healthcare",
+                "event": "Design Thinking: Access to Healthcare <br> by Design for America",
                 "location": "Classroom 1"
             },
             {
                 "time": "11:30 AM",
-                "event": "Blockchain technology and Smart Contracts 101",
+                "event": "Blockchain technology and Smart Contracts 101 <br> by UNC Blockchain Club",
                 "location": "Classroom 2"
             },
             {
@@ -94,17 +94,17 @@
             },
             {
                 "time": "1:30 PM",
-                "event": "Introduction to Git and Linux Bash",
+                "event": "Introduction to Git and Linux Bash <br> Mr. Kris Jordan",
                 "location": "Classroom 1"
             },
             {
                 "time": "1:30 PM",
-                "event": "Introduction to Machine Learning with Python",
+                "event": "Introduction to Machine Learning with Python <br> by Armaan Sethi",
                 "location": "Classroom 2"
             },
             {
                 "time": "2:30 PM",
-                "event": "Crash Course in Web Development in Python",
+                "event": "Crash Course in Web Development in Python <br> by UNC CS Club",
                 "location": "Classroom 1"
             },
             {
