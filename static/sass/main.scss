@@ -1,7 +1,7 @@
 @import "components/palette";
 
 body {
-    color: $f-color !important;
+    color: $f-color;
     background: $g-plum;
     font-family: 'Quicksand', sans-serif;
     font-size: 1em;
@@ -54,7 +54,7 @@ main {
 .form-btn, .form-btn:focus {
     width: 20vw;
     height: 60px;
-    font-size: 1em;
+    font-size: 1.2em;
     overflow: hidden;
     background-color: $g-light-red;
     color: $f-color;
@@ -100,6 +100,11 @@ nav ul a {
     position: fixed;
 }
 
+.live-nav-link {
+    color: $g-gold;
+    font-weight: bold;
+}
+
 .nav-anchor {
     display: block;
     position: relative;
@@ -142,14 +147,64 @@ nav ul a {
     height: 100%;
 }
 
+.table-row-odd {
+    background: $table-light;
+}
+
+.table-row-even {
+    background: $table-dark;
+}
+
+.sponsors {
+    background: $sponsor-bg;
+    color: $dark-bg;
+}
+
 .sponsor-image {
     display: inline-block;
-    width: 30%;
-    min-width: 200px;
+    max-width: 100%;
+}
+
+.tier-4 {
+    max-width: 80%;
+    min-width: 280px;
+    max-height: 250px;
+}
+
+.tier-3 {
+    max-width: 70%;
+    min-width: 240px;
+    max-height: 180px;
+}
+
+.tier-2 {
+    max-width: 70%;
+    min-width: 240px;
+    max-height: 180px;
+}
+
+.tier-1 {
+    max-width: 40%;
+    min-width: 180px;
+    max-height: 100px;
+}
+
+.sponsor-row {
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .sponsor-row .col {
+        float: none;
+    }
+}
+
+.prizes .dark {
+    background: $table-dark;
 }
 
 footer a {
-    color: $light-bg;
+    color: $dark-bg;
     text-decoration: none;
     white-space: nowrap;
     font-size: 120%;

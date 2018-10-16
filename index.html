@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#3A3352">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    
+    <meta property="og:url" content="https://hacknc.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="HackNC 2018">
+    <meta property="og:description" content="UNC-Chapel Hill's annual fall hackathon" />
+    <meta property="og:image" content="https://hacknc.com/static/assets/images/CarnivalBannerHanging.png" />
+    
     <title>HackNC 2018</title>
     <link rel="shortcut icon" type="image/png" type="image/png" href="static/assets/images/logo.png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa">
@@ -60,21 +67,7 @@
             <div class="section dark center">
                 <img class="logo" src="static/assets/images/CarnivalBannerHanging.png">
                 <h4 class="fall2018" class="center">October 6-7, 2018</h4>
-                <div class='hide-on-small-only'>
-                    <a class='btn-large modal-trigger form-btn'
-                         href="#volunteer-mentor">Volunteer!</a>
-                    <a class='btn-large form-btn' href="https://hacknc.typeform.com/to/vum1rA">Register Now!</a>
-                    <a class='btn-large form-btn modal-trigger'
-                        href="#sponsor-btn">Sponsor Us!</a>
-                </div>
-                <div class="hide-on-med-and-up">
-                    <a class='btn-large form-btn' href="https://hacknc.typeform.com/to/vum1rA">Register Now!</a><br>
-                    <a class='btn-large modal-trigger form-btn'
-                        href="#volunteer-mentor">Volunteer!</a><br>
-                    <a class='btn-large form-btn modal-trigger'
-                        href="#sponsor-btn">Sponsor Us!</a>
-
-                </div>
+                <a class='btn-large form-btn' href="/live">Live Dashboard</a>
             </div>
         </div>
 
@@ -82,12 +75,15 @@
         <nav class='nfixed'>
             <div class="nav-wrapper center">
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-                <ul class="hide-on-small-only">
-                    <li><a href="#about">Home</a></li>
+                <ul class="hide-on-med-and-down">
+                    <li><a href="/live" class="live-nav-link">Live Dashboard</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
                     <li><a href="#travel">Travel</a></li>
                     <li><a href="#faq">FAQ</a></li>
                     <li><a href="#schedule">Schedule</a></li>
                     <li><a href="#sponsors">Sponsors</a></li>
+                    <li><a href="#prizes">Prizes</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
@@ -95,11 +91,14 @@
 
         <!-- Mobile Navigation Bar -->
         <ul class="sidenav" id="mobile-demo">
-            <li><a href="#about">Home</a></li>
+            <li><a href="/live" class="live-nav-link">Live Dashboard</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
             <li><a href="#travel">Travel</a></li>
             <li><a href="#faq">FAQ</a></li>
             <li><a href="#schedule">Schedule</a></li>
             <li><a href="#sponsors">Sponsors</a></li>
+            <li><a href="#prizes">Prizes</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
 
@@ -133,6 +132,11 @@
                     <h2>Travel</h2>
                     <div class='row'>
                         <div class='col s12'>
+                            <p>Details about the travel-reimbursmenents process
+                            can be found are <a
+                     href="travel-reimbursements.html">here</a>.</p>
+                            <p>Form used for travel reimbursement can be found <a
+                     href="https://hacknc.typeform.com/to/VEoFv1">here</a>.</p>
                             <h4>Parking</h4>
                             <p>Free parking is available over the weekend everywhere on campus, but we recommend the following decks:</p>
                             <ul>
@@ -159,13 +163,13 @@
                         <div class='col s12'>
                             <h4>Carpool Amounts</h4>
                             <table class='grant-table'>
-                                <tr><th>One-way distance</th><th>Grant Amount</th></tr>
-                                <tr><td>0 - 50 miles</td><td>$0</td></tr>
-                                <tr><td>51 - 100 miles</td><td>$20</td></tr>
-                                <tr><td>101 - 200 miles</td><td>$40</td></tr>
-                                <tr><td>201 - 300 miles</td><td>$60</td></tr>
-                                <tr><td>301 - 400 miles</td><td>$80</td></tr>
-                                <tr><td>401+ miles</td><td>$100</td></tr>
+                                <tr class="table-row-odd"><th>One-way distance</th><th>Grant Amount</th></tr>
+                                <tr class="table-row-even"><td>0 - 50 miles</td><td>$0</td></tr>
+                                <tr class="table-row-odd"><td>51 - 100 miles</td><td>$20</td></tr>
+                                <tr class="table-row-even"><td>101 - 200 miles</td><td>$40</td></tr>
+                                <tr class="table-row-odd"><td>201 - 300 miles</td><td>$60</td></tr>
+                                <tr class="table-row-even"><td>301 - 400 miles</td><td>$80</td></tr>
+                                <tr class="table-row-odd"><td>401+ miles</td><td>$100</td></tr>
                             </table>
                             <br>
                         </div>
@@ -283,7 +287,7 @@
                 </div>
             </div>
 
-        <div class='section dark sponsors schedule'>
+        <div class='section dark schedule'>
             <a class="nav-anchor" id="schedule"></a>
             <div class='container'>
                 <h2>Schedule*</h2>
@@ -293,39 +297,81 @@
             </div>
         </div>
 
-        <div class="section light sponsors">
+        <div class="section sponsors">
             <a class="nav-anchor" id="sponsors"></a>
             <div class="container">
-                <h2>Our Past Sponsors</h2>
+                <h2>Our Sponsors</h2>
                 <div class='center'>
-                    <div class="row">
-                        <div class="col s12 m4 center">
+                    <div class="row sponsor-row">
+                        <div class="col m12 l6 center">
                             <a href='https://www.capitalone.com/'>
                                 <img class='sponsor-image tier-4' src='static/assets/images/sponsors/capitalone.png'></a>
-                            <a href='https://www.ibm.com/'>
-                                <img class='sponsor-image tier-3' src='static/assets/images/sponsors/ibm.png'></a>
-                            <a href='https://www.genesys.com/'>
-                                <img class='sponsor-image tier-1' src='static/assets/images/sponsors/genesys.png'></a>
-                            <a href='https://www.facebook.com/'>
-                                <img class='sponsor-image tier-1' src='static/assets/images/sponsors/facebook.png'></a>
                         </div>
-                        <div class="col s12 m4 center">
-                            <a href='https://www.fidelity.com/'>
-                                <img class='sponsor-image tier-4' src='static/assets/images/sponsors/fidelity.png'></a>
+                        <div class="col m12 l6 center">
+                            <a href='https://www.captechconsulting.com/'>
+                                <img class='sponsor-image tier-4' src='static/assets/images/sponsors/captech.png'></a>
+                        </div>
+                    </div>
+                    <div class="row sponsor-row">
+                        <div class="col m12 center">
                             <a href='https://www.sentryone.com/'>
                                 <img class='sponsor-image tier-3' src='static/assets/images/sponsors/sentryone.png'></a>
+                        </div>
+                    </div>
+                    <div class="row sponsor-row">
+                        <div class="col m12 l5 offset-l1 center">
+                            <a href='https://www.ally.com/'>
+                                <img class='sponsor-image tier-2' src='static/assets/images/sponsors/ally.png'></a>
+                        </div>
+                        <div class="col m12 l5 center">
+                            <a href='https://www.optum.com/'>
+                                <img class='sponsor-image tier-2' src='static/assets/images/sponsors/optum.png'></a>
+                        </div>
+                    </div>
+                    <div class="row sponsor-row">
+                        <div class="col m12 l5 offset-l1 center">
+                            <a href='https://www.globalbankers.com/'>
+                                <img class='sponsor-image tier-2' src='static/assets/images/sponsors/globalbankers.png'></a>
+                        </div>
+                        <div class="col m12 l5 center">
+                            <a href='https://www.equitasls.com/'>
+                                <img class='sponsor-image tier-2' src='static/assets/images/sponsors/equitas.png'></a>
+                        </div>
+                    </div>
+                    <div class="row sponsor-row">
+                        <div class="col m12 l3 center">
                             <a href='https://www.sas.com/'>
                                 <img class='sponsor-image tier-1' src='static/assets/images/sponsors/sas.png'></a>
-                            <a href='https://cs.unc.edu/'>
-                                <img class='sponsor-image tier-1' src='static/assets/images/sponsors/unc-cs.png'></a>
                         </div>
-                        <div class="col s12 m4 center">
-                            <a href='https://www.captechconsulting.com/'>
-                                <img class='sponsor-image tier-3' src='static/assets/images/sponsors/captech.png'></a>
-                            <a href='https://www.redventures.com/'>
-                                <img class='sponsor-image tier-3' src='static/assets/images/sponsors/rv.png'></a>
-                            <a href='https://www.sonovol.com/'>
-                                <img class='sponsor-image tier-1' src='static/assets/images/sponsors/sonovol.png'></a>
+                        <div class="col m12 l3 center">
+                            <a href='https://www.credit-suisse.com/'>
+                                <img class='sponsor-image tier-1' src='static/assets/images/sponsors/creditsuisse.png'></a>
+                        </div>
+                        <div class="col m12 l3 center">
+                            <a href='https://www.ge.com/'>
+                                <img class='sponsor-image tier-1' src='static/assets/images/sponsors/ge.png'></a>
+                        </div>
+                        <div class="col m12 l3 center">
+                            <a href='https://www.wolfram.com//'>
+                                <img class='sponsor-image tier-1' src='static/assets/images/sponsors/wolfram.png'></a>
+                        </div>
+                    </div>
+                    <div class="row sponsor-row">
+                        <div class="col m12 l6 center">
+                            <a href="http://beam.unc.edu/">
+                                <img class='sponsor-image tier-3'
+                               src='static/assets/images/sponsors/unc-beam.png'>
+                            </a>
+                        </div>
+                        <div class="col m12 l6 center">
+                            <a href='https://unc-cssg.org/'>
+                                <img class='sponsor-image tier-3' src='static/assets/images/sponsors/cssgunc.png'></a>
+                        </div>
+                    </div>
+                    <div class='row sponsor-row'>
+                        <div class='col m12 center'>
+                         <a href='https://cs.unc.edu/'>
+                                <img class='sponsor-image tier-3' src='static/assets/images/sponsors/unc-cs.png'></a>
                         </div>
                     </div>
                     <p class="center">Looking to sponsor HackNC? Email us at <a class="sponsor-email"
@@ -333,9 +379,213 @@
                 </div>
             </div>
         </div>
+
+        <div class="section prizes">
+            <a class="nav-anchor" id="prizes"></a>
+            <div class="container">
+                <h2 class="center">Prizes</h2>
+                <h5 class="center">(More to be announced at the event)</h5>
+                <div class='center'>
+                    <div class='row'>
+                        <div class='col m12 l4 center'>
+                            <div class='card dark'>
+                                <div class='card-content'>
+                                    <h5>HackNC</h5>
+                                    <p><u>1st Place</u></p>
+                                    <p>GoPro HERO Sessions</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='col m12 l4 center'>
+                            <div class='card dark'>
+                                <div class='card-content'>
+                                    <h5>HackNC</h5>
+                                    <p><u>2nd Place</u></p>
+                                    <p>Mini Quadcopters</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='col m12 l4 center'>
+                            <div class='card dark'>
+                                <div class='card-content'>
+                                    <h5>HackNC</h5>
+                                    <p><u>3rd Place</u></p>
+                                    <p>Amazon Echo Dots</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='row'>
+                        <div class='col m12 l4 center'>
+                            <div class='card dark'>
+                                <div class='card-content'>
+                                    <h5>HackNC</h5>
+                                    <p><u>Most Innovative Hack</u></p>
+                                    <p>Smart Notebooks</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='col m12 l4 center'>
+                            <div class='card dark'>
+                                <div class='card-content'>
+                                    <h5>HackNC</h5>
+                                    <p><u>Best Game</u></p>
+                                    <p>Logitech Wireless Mice</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='col m12 l4 center'>
+                            <div class='card dark'>
+                                <div class='card-content'>
+                                    <h5>HackNC</h5>
+                                    <p><u>Healthiest Hack</u></p>
+                                    <p>Xiaomi Mi Band 3s</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='row'>
+                        <div class='col m12 l4 center'>
+                            <div class='card dark'>
+                                <div class='card-content'>
+                                    <h5>HackNC</h5>
+                                    <p><u>Best Hardware Hack</u></p>
+                                    <p>Arduino Car Starter Kits</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='col m12 l4 center'>
+                            <div class='card dark'>
+                                <div class='card-content'>
+                                    <h5>HackNC</h5>
+                                    <p><u>Most "Millennial" Hack</u></p>
+                                    <p>Emoji Plushies</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='col m12 l4 center'>
+                            <div class='card dark'>
+                                <div class='card-content'>
+                                    <h5>ConsenSys</h5>
+                                    <p><u>Best Ethereum Smart Contract/Decentralized App</u></p>
+                                    <p>$500 in Ether</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='row'>
+                        <div class='col m12 l4 offset center'>
+                            <div class='card dark'>
+                                <div class='card-content'>
+                                    <h5>UNC-CH CS+Social Good</h5>
+                                    <p><u>Most Innovative Social Impact Hack</u></p>
+                                    <p>Certificates and Chromecasts</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='col m12 l4 center'>
+                            <div class='card dark'>
+                                <div class='card-content'>
+                                    <h5>MLH</h5>
+                                    <p><u>Best use of Algolia</u></p>
+                                    <p>Casio Calculator Watches</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='col m12 l4 center'>
+                            <div class='card dark'>
+                                <div class='card-content'>
+                                    <h5>MLH</h5>
+                                    <p><u>Best IoT Hack using a Qualcomm Device</u></p>
+                                    <p>Dragonboard 410Cs</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='row'>
+                        <div class='col m12 l4 center'>
+                            <div class='card dark'>
+                                <div class='card-content'>
+                                    <h5>MLH</h5>
+                                    <p><u>Best use of Authorize.net</u></p>
+                                    <p>LS20 Gaming Headsets</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='col m12 l4 center'>
+                            <div class='card dark'>
+                                <div class='card-content'>
+                                    <h5>MLH</h5>
+                                    <p><u>Best use of Google Cloud Platform</u></p>
+                                    <p>Google Home Minis</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='col m12 l4 center'>
+                            <div class='card dark'>
+                                <div class='card-content'>
+                                    <h5>MLH</h5>
+                                    <p><u>Best Domain Registered with Domain.com</u></p>
+                                    <p>Raspberry Pis</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='row'>
+                        <div class='col m12 l4 center'>
+                            <div class='card dark'>
+                                <div class='card-content'>
+                                    <h5>MLH</h5>
+                                    <p><u>Best use of HERE.com</u></p>
+                                    <p>Hacker gear from HERE.com</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='col m12 l4 center'>
+                            <div class='card dark'>
+                                <div class='card-content'>
+                                    <h5>MLH</h5>
+                                    <p><u>Best use of the Cisco Webex Teams API</u></p>
+                                    <p>Power Banks</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='col m12 l4 center'>
+                            <div class='card dark'>
+                                <div class='card-content'>
+                                    <h5>MLH</h5>
+                                    <p><u>Snap Kit Weekly Challenge</u></p>
+                                    <p>Spectacles by Snapchat</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='row'>
+                        <div class='col m12 l4 center'>
+                            <div class='card dark'>
+                                <div class='card-content'>
+                                    <h5>MLH</h5>
+                                    <p><u>Best use of Clarifai's API</u></p>
+                                    <p>Hacker gear from Clarifai</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='col m12 l4 offset center'>
+                            <div class='card dark'>
+                                <div class='card-content'>
+                                    <h5>Capital One</h5>
+                                    <p><u>Best Financial Hack</u></p>
+                                    <p>$250 Amazon Gift Card per team member</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
     
     </main>
-    <footer class="section dark contact page-footer">
+    <footer class="section light contact page-footer">
         <div class="container">
             <a class="nav-anchor" id="contact"></a>
             <h2>Contact</h2>

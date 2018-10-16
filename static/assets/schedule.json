@@ -1,21 +1,46 @@
 [
     {
+        "date": "HackNC Week of Workshops",
+        "schedule": [
+            {
+                "time": "Monday, Oct. 1st, 5:00 PM",
+                "event": "Introduction to Game Development <br> by UNC Game Dev Club",
+                "location": "Sitterson 014"
+            },
+            {
+                "time": "Tuesday, Oct. 2nd, 5:00 PM",
+                "event": "Intro. to Mobile Development with Android Studio and React Native <br> by <a href='https://jeffterrell.tech/'>Dr. Jeff Terrell</a>",
+                "location": "Fred Brooks 009"
+            },
+            {
+                "time": "Wednesday, Oct. 3rd, 5:00 PM",
+                "event": "Intro to Flask: Crash Course in  Web Development <br> by UNC CS Club",
+                "location": "Sitterson 014"
+            },
+            {
+                "time": "Thursday, Oct. 4th, 5:00 PM",
+                "event": "'Ideate' - Coming up with a Brilliant Idea <br> by <a href='http://steventking.com/'>Mr. Steven King</a>",
+                "location": "Fred Brooks 009"
+            }
+        ]
+    },
+    {
         "date": "Friday, October 5th",
         "schedule": [
             {
                 "time": "7:00 PM",
                 "event": "Check-in begins for traveling hackers",
-                "location": "TBA"
+                "location": "Murray Lobby"
             },
             {
                 "time": "8:00 PM",
                 "event": "Pizza for traveling hackers",
-                "location": "TBA"
+                "location": "-"
             },
             {
                 "time": "11:00 PM",
                 "event": "Late night tour of UNC",
-                "location": "UNC campus"
+                "location": "Murray Lobby"
             }
         ]
     },
@@ -25,27 +50,27 @@
             {
                 "time": "7:00 AM",
                 "event": "Check-in begins for RSVP'd hackers",
-                "location": "TBA"
+                "location": "Murray Lobby"
             },
             {
                 "time": "7:30 AM",
                 "event": "Breakfast",
-                "location": "TBA"
+                "location": "Murray Ground Floor"
             },
             {
                 "time": "9:30 AM",
                 "event": "Check-in begins for everyone",
-                "location": "TBA"
+                "location": "Murray Lobby"
             },
             {
                 "time": "10:00 AM",
                 "event": "Opening ceremony begins",
-                "location": "TBA"
+                "location": "Murray G201"
             },
             {
                 "time": "11:00 AM",
                 "event": "Sponsor Fair",
-                "location": "TBA"
+                "location": "Murray Ground Floor"
             },
             {
                 "time": "11:00 AM",
@@ -53,19 +78,64 @@
                 "location": "-"
             },
             {
+                "time": "11:30 AM",
+                "event": "Design Thinking: Access to Healthcare <br> by Design for America",
+                "location": "Classroom 1"
+            },
+            {
+                "time": "11:30 AM",
+                "event": "Blockchain technology and Smart Contracts 101 <br> by UNC Blockchain Club",
+                "location": "Classroom 2"
+            },
+            {
                 "time": "12:30 PM",
                 "event": "Lunch",
-                "location": "TBA"
+                "location": "Murray Ground Floor"
+            },
+            {
+                "time": "1:30 PM",
+                "event": "Introduction to Git and Linux Bash <br> Mr. Kris Jordan",
+                "location": "Classroom 1"
+            },
+            {
+                "time": "1:30 PM",
+                "event": "Introduction to Machine Learning with Python <br> by Armaan Sethi",
+                "location": "Classroom 2"
+            },
+            {
+                "time": "2:30 PM",
+                "event": "Crash Course in Web Development in Python <br> by UNC CS Club",
+                "location": "Classroom 1"
+            },
+            {
+                "time": "2:30 PM",
+                "event": "Strawpoll Clone Using Firebase and Angular CLI by Capital One",
+                "location": "Classroom 2"
+            },
+            {
+                "time": "3:30 PM",
+                "event": "Introduction to Dynamic Web Development",
+                "location": "Classroom 1"
+            },
+            {
+                "time": "3:30 PM",
+                "event": "Interviews and Resume Workshop by SentryOne",
+                "location": "Classroom 2"
             },
             {
                 "time": "6:30 PM",
                 "event": "Dinner",
-                "location": "TBA"
+                "location": "Murray Ground Floor"
+            },
+            {
+                "time": "8:00 PM",
+                "event": "!Light",
+                "location": "Classroom 1"
             },
             {
                 "time": "12:00 AM",
                 "event": "Midnight Munchies",
-                "location": "TBA"
+                "location": "Murray Ground Floor"
             }
         ]
     },
@@ -75,22 +145,27 @@
             {
                 "time": "8:00 AM",
                 "event": "Breakfast",
-                "location": "TBA"
+                "location": "Murray Ground Floor"
             },
             {
                 "time": "11:00 AM",
                 "event": "Hacking ends",
-                "location": "TBA"
+                "location": "-"
             },
             {
                 "time": "11:30 AM",
                 "event": "Judging starts",
-                "location": "TBA"
+                "location": "Murray G201, G205, Venable G311, G307"
+            },
+            {
+                "time": "1:00 PM",
+                "event": "Lunch",
+                "location": "Murray Ground Floor"
             },
             {
                 "time": "1:30 PM",
                 "event": "Closing Ceremony",
-                "location": "TBA"
+                "location": "Murray G201"
             }
         ]
     }
