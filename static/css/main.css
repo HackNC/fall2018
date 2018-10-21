@@ -53,7 +53,9 @@ main {
 
 @media only screen and (max-width: 600px) {
   .form-btn, .form-btn:focus, .form-btn:hover {
-    width: 70vw; } }
+    width: 70vw;
+    height: auto;
+    line-height: 1.5; } }
 .modal .form-btn {
   font-size: 1.5em; }
 
@@ -155,6 +157,9 @@ nav ul a {
 .prizes .dark {
   background: #2d273f; }
 
+@media only screen and (max-width: 600px) {
+  .prizes .col {
+    width: 100%; } }
 footer a {
   color: #3A3352;
   text-decoration: none;

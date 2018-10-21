@@ -71,6 +71,8 @@ main {
 @media only screen and (max-width: 600px) {
     .form-btn, .form-btn:focus, .form-btn:hover {
         width: 70vw;
+        height: auto;
+        line-height:1.5;
     }
 }
 
@@ -201,6 +203,12 @@ nav ul a {
 
 .prizes .dark {
     background: $table-dark;
+}
+
+@media only screen and (max-width: 600px) {
+    .prizes .col {
+        width:100%;
+    }
 }
 
 footer a {
