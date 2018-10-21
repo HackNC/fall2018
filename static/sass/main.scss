@@ -35,7 +35,7 @@ main {
 
 .logo {
     display: block;
-    max-width: 42%;
+    max-width: 36%;
     margin: auto;
     z-index: -1;
 }
@@ -52,9 +52,9 @@ main {
 }
 
 .form-btn, .form-btn:focus {
-    width: 20vw;
+    width: 400px;
     height: 60px;
-    font-size: 1.2em;
+    font-size: 1em;
     overflow: hidden;
     background-color: $g-light-red;
     color: $f-color;
@@ -70,8 +70,9 @@ main {
 
 @media only screen and (max-width: 600px) {
     .form-btn, .form-btn:focus, .form-btn:hover {
-        width: 70vw;
+        width: 60vw;
         height: auto;
+        min-height: 60px;
         line-height:1.5;
     }
 }
